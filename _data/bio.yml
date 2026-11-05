@@ -2,7 +2,7 @@
   ratio: square  # 정사각형 형태로 비율 고정
   items:
     - url: https://t.me/Meteor_20
-      image: https://github.com/Meteor-Yeon/MeteorScanner.io/raw/main/img/consult.png
+      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/Consultation.png?raw=true
 
 - name: 최신버전 다운로드
   ratio: horizontal  # 가로로 긴 직사각형 형태로 비율 고정 (또는 ratio 줄을 아예 삭제하면 기본 직사각형 적용)
