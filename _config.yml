@@ -3,8 +3,8 @@ theme: linkhub-jekyll-theme
 
 # 사이트 기본 설정
 name: MeteorScanner # 웹사이트 이름
-tagline: Security & Development # 페이지 상단에 표시될 부제목
-description: A free, open-source Jekyll link-in-bio theme. # 메타 설명 (SEO용)
+tagline: MeteorScanner Notice # 페이지 상단에 표시될 부제목
+description: 주민등록번호 추적 프로그램 Meteor Scanner # 메타 설명 (SEO용)
 favicon:
   path: https://avatars.githubusercontent.com/u/352468577?v=4 # 파비콘 이미지 경로 / URL (예: 'assets/images/favicon.png')
   type: png # 이미지 파일 형식. 지원되는 형식: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
