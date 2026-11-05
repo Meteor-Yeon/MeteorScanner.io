@@ -9,3 +9,28 @@
   items:
     - url: https://drive.google.com/file/d/1tP7Ttd86jprPvNeR6J7ravvDmGMuqqul/view?usp=drive_link
       image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/newdowonload.png?raw=true
+<section style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+    {% for name in site.data.bio %}
+    <!-- 아래와 같이 details 태그에 open을 추가합니다 -->
+    <details open style="width: 100%; text-align: center;">
+        <summary class="text-center text-error" style="cursor: pointer; margin-bottom: 1rem;">{{ name.name }}</summary>
+        <div class="bio-gallery" style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; width: 100%;">
+            {% for item in name.items %}
+            {% if name.ratio == 'square' %}
+            <div class="bio-item" style="width: 100%; max-width: 480px; margin: 0 auto; overflow: visible;">
+                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio" style="display: block; width: 100%;">
+                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;"
+                        alt="{{ name.name }} post"></a>
+            </div>
+            {% else %}
+            <div class="bio-item" style="width: 100%; max-width: 400px; margin: 0 auto; overflow: visible;">
+                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio" style="display: block; width: 100%;">
+                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;"
+                        alt="{{ name.name }} post"></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </details>
+    {% endfor %}
+</section>
