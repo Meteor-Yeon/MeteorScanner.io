@@ -1,10 +1,10 @@
 - name: 충전문의 및 오류 제보
   ratio: vertical
   items:
-    - url: https://www.example.com
-      image: https://picsum.photos/1080/920.webp
+    - url: https://t.me/meteor_20
+      image: <img src="https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/%EC%83%81%EB%8B%B4%ED%83%80%EC%9D%B4%ED%8B%80.png?raw=true" width="500px" height="300px" alt="충전문의 및 오류 제보">
 
 - name: 최신버전 다운로드
   items:
     - url: https://www.example.com
-      image: https://picsum.photos/700/400.webp
+      image: <img src="https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/%EC%B5%9C%EC%8B%A0%EB%B2%84%EC%A0%84%EB%8B%A4%EC%9A%B4.png?raw=true" width="500px" height="250px" alt="최신버전 다운로드">
