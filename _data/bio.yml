@@ -2,9 +2,9 @@
   ratio: vertical
   items:
     - url: https://t.me/Meteor_20
-      image: https://github.com/Meteor-Yeon/MeteorScanner.io/raw/main/img/%EC%83%81%EB%8B%B4%ED%83%80%EC%9D%B4%ED%8B%80.png
+      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/Consultation.png?raw=true
 
 - name: 최신버전 다운로드
   items:
     - url: https://drive.google.com/file/d/1tP7Ttd86jprPvNeR6J7ravvDmGMuqqul/view?usp=drive_link
-      image: https://github.com/Meteor-Yeon/MeteorScanner.io/raw/main/img/%EC%B5%9C%EC%8B%A0%EC%9B%90%EB%B2%84%EC%A0%84%EB%8B%A4%EC%9A%B4.png
+      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/newdowonload.png?raw=true
