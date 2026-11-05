@@ -260,3 +260,15 @@ footer { margin-top: .5em; margin-bottom: 2em; }
     height: auto !important;
     object-fit: contain !important;
 }
+
+/* 가로형 이미지 영역의 정사각형 강제 비율 해제 및 잘림 방지 */
+.col.link, .bio-item, [class*="horizontal"] {
+    aspect-ratio: auto !important;
+    overflow: visible !important;
+}
+
+.link-item img, .links-section img, .card img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
