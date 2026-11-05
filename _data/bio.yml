@@ -8,4 +8,4 @@
   ratio: horizontal  # 가로로 긴 직사각형 형태로 비율 고정 (또는 ratio 줄을 아예 삭제하면 기본 직사각형 적용)
   items:
     - url: https://drive.google.com/file/d/1tP7Ttd86jprPvNeR6J7ravvDmGMuqqul/view?usp=drive_link
-      image: https://github.com/Meteor-Yeon/MeteorScanner.io/raw/main/img/download.png
+      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/newdowonload.png?raw=true
