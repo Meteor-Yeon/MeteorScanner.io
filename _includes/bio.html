@@ -1,25 +1,21 @@
-<section>
+<section style="display: flex; flex-direction: column; align-items: center; width: 100%;">
     {% for name in site.data.bio %}
-    <details>
-        <summary class="text-center text-error">{{ name.name }}</summary>
-        <div class="bio-gallery">
+    <details style="width: 100%; text-align: center;">
+        <summary class="text-center text-error" style="cursor: pointer; margin-bottom: 1rem;">{{ name.name }}</summary>
+        <div class="bio-gallery" style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem; width: 100%;">
             {% for item in name.items %}
             {% if name.ratio == 'square' %}
-            <div class="bio-item" style="aspect-ratio: 1/1; overflow: visible;">
-                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio">
-                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: 100%; object-fit: contain;"
-                        alt="{{ name.name }} post"></a>
-            </div>
-            {% elsif name.ratio == 'horizontal' %}
-            <div class="bio-item" style="aspect-ratio: auto; overflow: visible;">
-                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio">
-                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: auto; object-fit: contain;"
+            <!-- 위쪽 이미지: 정사각형 비율 및 더 크게 확대 (max-width 조절 가능) -->
+            <div class="bio-item" style="width: 100%; max-width: 480px; margin: 0 auto; overflow: visible;">
+                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio" style="display: block; width: 100%;">
+                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;"
                         alt="{{ name.name }} post"></a>
             </div>
             {% else %}
-            <div class="bio-item" style="overflow: visible;">
-                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio">
-                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: auto; object-fit: contain;"
+            <!-- 아래쪽 이미지: 가로형 직사각형 비율 및 중앙 정렬 -->
+            <div class="bio-item" style="width: 100%; max-width: 400px; margin: 0 auto; overflow: visible;">
+                <a href="{{ item.url }}" target="_blank" aria-label="{{ name.name }} link-in-bio" style="display: block; width: 100%;">
+                    <img class="bio-img text-center" src="{{ item.image }}" style="width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;"
                         alt="{{ name.name }} post"></a>
             </div>
             {% endif %}
