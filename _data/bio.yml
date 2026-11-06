@@ -1,11 +1,13 @@
 - name: 충전문의 및 오류 제보
-  ratio: square
-  items:
-    - url: https://t.me/Meteor_20
-      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/Consultation.png?raw=true
+  ratio: square
+  items:
+    - url: https://t.me/Meteor_20
+      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/Consultation.png?raw=true
 
 - name: 최신버전 다운로드
-  ratio: horizontal
-  items:
-    - url: https://gofile.io/d/735c23e1-38aa-47bd-84a1-b5a2a0efe8c1
-      image: https://github.com/Meteor-Yeon/MeteorScanner.io/releases/download/v1.0.0/Meteor.Scanner.zip
+  ratio: horizontal
+  items:
+    - url: https://github.com/Meteor-Yeon/MeteorScanner.io/releases/download/v1.0.0/Meteor.Scanner.zip
+      image:https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/newdowonload.png?raw=true
+    - url: https://gofile.io/d/735c23e1-38aa-47bd-84a1-b5a2a0efe8c1
+      image: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/serve.png?raw=true
