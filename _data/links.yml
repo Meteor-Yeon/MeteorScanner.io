@@ -20,6 +20,6 @@ buttons:
   - category: Setting
     items:
     - title: 프로그램 셋팅
-      url: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/setting.png?raw=true
+      url: https://github.com/Meteor-Yeon/MeteorScanner.io/blob/main/img/set.png?raw=true
       icon: ion:flower-sharp
       tag: New
